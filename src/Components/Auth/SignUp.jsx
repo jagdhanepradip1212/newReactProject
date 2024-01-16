@@ -1,7 +1,56 @@
-import React from "react";
+import axios from "axios";
+import React, { useState } from "react";
 import { Home } from "react-feather";
 
 const Signup = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+    acceptTerms: false,
+  });
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: type === "checkbox" ? checked : value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Perform client-side validation if needed
+      // ...
+
+      // Send POST request to the server
+      const response = await axios.post(
+        "http://localhost:3002/register",
+        formData
+      );
+
+      // Handle the server response as needed
+
+      if (response.status === 201) {
+        console.log("Responseeeeee Data:", response.data.message);
+        alert("Registration successful!"); // Show a success message
+      } else {
+        console.log("Unexpected Response:", response);
+        alert("Registration failed!"); // Show a generic failure message
+      }
+
+      console.log("responseeeee", response.data);
+      console.log("meassssgeeee", response.data.message);
+
+      // alert(response.message);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
   return (
     <>
       <meta charSet="utf-8" />
@@ -26,28 +75,7 @@ const Signup = () => {
       />
       {/* Main Css */}
       <link href="css/style.min.css" rel="stylesheet" type="text/css" />
-      {/* Loader Start */}
-      {/* <div id="preloader">
-        <div id="status">
-          <div className="logo">
-            <img
-              src="images/logo-dark.png"
-              height={25}
-              className="d-block mx-auto"
-              alt=""
-            />
-          </div>
-          <div className="sk-chase mt-4">
-            <div className="sk-chase-dot" />
-            <div className="sk-chase-dot" />
-            <div className="sk-chase-dot" />
-            <div className="sk-chase-dot" />
-            <div className="sk-chase-dot" />
-            <div className="sk-chase-dot" />
-          </div>
-        </div>
-      </div> */}
-      {/* Loader End */}
+
       {/* Back to home Start */}
       <div className="back-to-home rounded d-none d-sm-block">
         <a href="/" className="text-white rounded d-inline-block text-center">
@@ -71,19 +99,20 @@ const Signup = () => {
                 <div className="text-center">
                   <h5 className="mb-4 pb-2">Sign Up</h5>
                 </div>
-                <form className="login-form">
+                <form className="login-form" onSubmit={handleSubmit}>
                   <div className="row">
                     <div className="col-12">
                       <div className="mb-3">
                         <label className="form-label small fw-bold">
-                          First name <span className="text-danger">*</span>
+                          Full name <span className="text-danger">*</span>
                         </label>
                         <input
                           type="text"
                           className="form-control"
-                          name="s"
+                          name="fullName"
                           required=""
-                          placeholder="First Name :"
+                          placeholder="Full Name :"
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -98,6 +127,7 @@ const Signup = () => {
                           name="email"
                           required=""
                           placeholder="Your Email :"
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
@@ -109,8 +139,10 @@ const Signup = () => {
                         <input
                           type="password"
                           className="form-control"
+                          name="password"
                           required=""
                           placeholder="Password :"
+                          onChange={handleChange}
                         />
                       </div>
                     </div>
