@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../Home/Home.css";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
+import Footer from "../../Footer/Footer";
 
 const Home = () => {
+  const [isHovered, setIsHovered] = useState(false);
+  const [isSHovered, setIsSHovered] = useState(false);
+  const [isTHovered, setIsTHovered] = useState(false);
+  const [isFHovered, setIsFHovered] = useState(false);
+
   return (
     <div>
       <>
@@ -657,10 +664,26 @@ const Home = () => {
             {/*end row*/}
             <div className="row align-items-center">
               <div className="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                <div className="pricing text-center rounded overflow-hidden shadow">
-                  <div className="price-header bg-dark pt-5 pb-5">
+                <div
+                  className={`pricing text-center rounded overflow-hidden shadow ${
+                    isHovered ? "hovered" : ""
+                  }`}
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  <div
+                    className={`price-header ${
+                      isHovered ? "bg-primary" : "bg-dark"
+                    } pt-5 pb-5`}
+                  >
                     <h5 className="price-title text-white">Starter</h5>
-                    <p className="mb-0 text-white-50">Suitable for Starter</p>
+                    <p
+                      className={`mb-0 ${
+                        isHovered ? "text-light" : "text-white-50"
+                      }`}
+                    >
+                      Suitable for Starter
+                    </p>
                   </div>
                   <div className="d-flex justify-content-center bg-light border-bottom py-4">
                     <span className="h6 mb-0">$</span>
@@ -712,8 +735,17 @@ const Home = () => {
                         Free Installment
                       </li>
                     </ul>
-                    <div className="border-top text-center py-4">
-                      <a href="javascript:void(0)" className="btn btn-dark">
+                    <div
+                      className={`border-top text-center py-4 ${
+                        isHovered ? "hovered" : ""
+                      }`}
+                    >
+                      <a
+                        href="javascript:void(0)"
+                        className={`btn ${
+                          isHovered ? "btn-primary" : "btn-dark"
+                        } `}
+                      >
                         Free Signup
                       </a>
                     </div>
@@ -723,10 +755,26 @@ const Home = () => {
               </div>
               {/*end col*/}
               <div className="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                <div className="pricing text-center rounded overflow-hidden shadow">
-                  <div className="price-header bg-dark pt-5 pb-5">
+                <div
+                  className={`pricing text-center rounded overflow-hidden shadow ${
+                    isSHovered ? "hovered" : ""
+                  }`}
+                  onMouseEnter={() => setIsSHovered(true)}
+                  onMouseLeave={() => setIsSHovered(false)}
+                >
+                  <div
+                    className={`price-header ${
+                      isSHovered ? "bg-primary" : "bg-dark"
+                    } pt-5 pb-5`}
+                  >
                     <h5 className="price-title text-white">Professional</h5>
-                    <p className="mb-0 text-white-50">Suitable for Regular</p>
+                    <p
+                      className={`mb-0 ${
+                        isSHovered ? "text-light" : "text-white-50"
+                      }`}
+                    >
+                      Suitable for Regular
+                    </p>
                   </div>
                   <div className="d-flex justify-content-center bg-light border-bottom py-4">
                     <span className="h6 mb-0">$</span>
@@ -778,8 +826,17 @@ const Home = () => {
                         Free Installment
                       </li>
                     </ul>
-                    <div className="border-top text-center py-4">
-                      <a href="javascript:void(0)" className="btn btn-dark">
+                    <div
+                      className={`border-top text-center py-4 ${
+                        isSHovered ? "hovered" : ""
+                      }`}
+                    >
+                      <a
+                        href="javascript:void(0)"
+                        className={`btn ${
+                          isSHovered ? "btn-primary" : "btn-dark"
+                        }`}
+                      >
                         Subscribe Now
                       </a>
                     </div>
@@ -855,10 +912,26 @@ const Home = () => {
               </div>
               {/*end col*/}
               <div className="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                <div className="pricing text-center rounded overflow-hidden shadow">
-                  <div className="price-header bg-dark pt-5 pb-5">
+                <div
+                  className={`pricing text-center rounded overflow-hidden shadow ${
+                    isFHovered ? "hovered" : ""
+                  }`}
+                  onMouseEnter={() => setIsFHovered(true)}
+                  onMouseLeave={() => setIsFHovered(false)}
+                >
+                  <div
+                    className={`price-header ${
+                      isFHovered ? "bg-primary" : "bg-dark"
+                    } pt-5 pb-5`}
+                  >
                     <h5 className="price-title text-white">Premium</h5>
-                    <p className="mb-0 text-white-50">Suitable for Premium</p>
+                    <p
+                      className={`mb-0 ${
+                        isFHovered ? "text-light" : "text-white-50"
+                      }`}
+                    >
+                      Suitable for Primium
+                    </p>
                   </div>
                   <div className="d-flex justify-content-center bg-light border-bottom py-4">
                     <span className="h6 mb-0">$</span>
@@ -910,8 +983,17 @@ const Home = () => {
                         Free Installment
                       </li>
                     </ul>
-                    <div className="border-top text-center py-4">
-                      <a href="javascript:void(0)" className="btn btn-dark">
+                    <div
+                      className={`border-top text-center py-4 ${
+                        isFHovered ? "hovered" : ""
+                      }`}
+                    >
+                      <a
+                        href="javascript:void(0)"
+                        className={`btn ${
+                          isFHovered ? "btn-primary" : "btn-dark"
+                        }`}
+                      >
                         Buy Premium
                       </a>
                     </div>
@@ -1026,95 +1108,10 @@ const Home = () => {
         {/*end section*/}
         {/* End */}
         {/* Footer Start */}
-        <footer className="bg-dark py-5">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-7 mb-3">
-                <div className="text-center">
-                  <a className="logo logo-footer" href="#">
-                    <img src="images/logo-light.png" height={25} alt="" />
-                  </a>
-                  <p className="text-muted para-desc mx-auto mt-3">
-                    Launch your campaign and benefit from our expertise on
-                    designing and managing conversion centered bootstrap4 html
-                    page.
-                  </p>
-                  <ul className="list-unstyled social-icon social mb-0 mt-4">
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Facebook className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="facebook"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Instagram className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="instagram"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Twitter className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="twitter"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Linkedin className="fea icon-sm fea-social" />
-                        {/* <i
-                        data-feather="linkedin"
-                        className="fea icon-sm fea-social"
-                      /> */}
-                      </a>
-                    </li>
-                  </ul>
-                  {/*end icon*/}
-                </div>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-          </div>
-          {/*end container*/}
-          {/* Back to top */}
-          <a href="#" className="back-to-top" id="back-to-top" title="Top">
-            <i className="mdi mdi-arrow-up icons bg-light text-dark"> </i>
-          </a>
-          {/* Back to top */}
-        </footer>
+
         {/*end footer*/}
-        <footer className="footer-bar bg-dark">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 text-center">
-                <p className="mb-0 footer-text para-desc mx-auto">
-                  © <span className="text-reset">Appgen</span>. Design with{" "}
-                  <i className="mdi mdi-heart text-danger" /> by{" "}
-                  <a
-                    href="http://shreethemes.in"
-                    target="_blank"
-                    className="text-reset"
-                  >
-                    Shreethemes
-                  </a>
-                  .
-                </p>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-          </div>
-          {/*end container*/}
-        </footer>
+
+        <Footer />
         {/*end footer*/}
         {/* Footer End */}
         {/* Video Popup Start */}

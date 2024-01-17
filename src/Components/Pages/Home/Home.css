@@ -1,0 +1,44 @@
+/* Add this CSS to your stylesheet or in a style tag in the head of your HTML document */
+
+/* Add a class for highlighting */
+.pricing:hover {
+    border: 2px solid #007bff; /* You can change the color as needed */
+  }
+
+
+/* Apply a transition to create a smooth effect */
+.pricing {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Move the div slightly on the top side when hovered */
+  .pricing:hover {
+    transform: translateY(-25px); /* Adjust the value based on how much you want it to move */
+  }
+  
+  
+  /* If you want to change the background color instead */
+  .pricing:hover {
+    background-color: #f8f9fa; 
+  }
+  
+  /* If you want to change both border and background color */
+  .pricing:hover {
+    border: 2px solid #007bff; /* You can change the color as needed */
+    background-color: #f8f9fa; /* You can change the color as needed */
+  }
+  
+  /* If you want to add a shadow effect */
+  .pricing:hover {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* You can change the color and intensity as needed */
+  }
+
+  /* Add this CSS to your stylesheet or in a style tag in the head of your HTML document */
+
+/* Change button color on div hover */
+.pricing:hover .btn {
+    background-color: #007bff; /* You can change the color as needed */
+    color: #ffffff; /* You can change the text color as needed */
+  }
+  
+  

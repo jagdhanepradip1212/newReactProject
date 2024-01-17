@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Main Banner Styles */
+.main-top {
+    /* Your styles for main-top */
+}
+
+.popup-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.popup-btn p {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.banner_w3lspvt-2 {
+    /* Your styles for banner */
+}
+
+/* About Section Styles */
+.about-inner {
+    padding: 80px 0;
+}
+
+.about-inner h1 {
+    font-size: 36px;
+    color: #00ADF2; /* Updated color */
+    margin-bottom: 20px;
+}
+
+.about-inner p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-inner h4 {
+    font-size: 24px;
+    color: #00ADF2; /* Updated color */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.w3l-right-book li {
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Vision Section Styles */
+.vision-section {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+}
+
+.vision-section h2 {
+    font-size: 32px;
+    color: #00ADF2; /* Updated color */
+    margin-bottom: 30px;
+}
+
+.vision-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Expertise Section Styles */
+.expertise-section {
+    padding: 80px 0;
+}
+
+.expertise-section h2 {
+    font-size: 32px;
+    color: #00ADF2; /* Updated color */
+    margin-bottom: 30px;
+}
+
+.expertise-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.expertise-section ul li {
+    font-size: 16px; /* Updated font size */
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about-right-faq h4 {
+    font-size: 32px; /* Adjusted font size */
+    color: #00ADF2; /* You can adjust the color as well */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.w3l-right-book li {
+    font-size: 16px; /* Adjusted font size */
+    color: #555;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Your additional styles here */
+.welcome-right img {
+    /* Your styles for images */
+    margin-top: 221px;
+    max-width: 100%;
+    height: auto;
+    margin-right: -132px;
+}

@@ -1,5 +1,8 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
+import Footer from "../../Footer/Footer";
+import company from "../../../assets/company.jpg";
+import "../../Pages/Company/Company.css";
 
 const Company = () => {
   return (
@@ -31,44 +34,10 @@ const Company = () => {
         <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
         {/* Main css File */}
         <link href="css/style.min.css" rel="stylesheet" type="text/css" />
-        {/* Loader Start */}
-        {/* <div id="preloader">
-          <div id="status">
-            <div className="logo">
-              <img
-                src="images/logo-dark.png"
-                height={25}
-                className="d-block mx-auto"
-                alt=""
-              />
-            </div>
-            <div className="sk-chase mt-4">
-              <div className="sk-chase-dot" />
-              <div className="sk-chase-dot" />
-              <div className="sk-chase-dot" />
-              <div className="sk-chase-dot" />
-              <div className="sk-chase-dot" />
-              <div className="sk-chase-dot" />
-            </div>
-          </div>
-        </div> */}
-        {/* Loader End */}
+
         {/* Navbar STart */}
         <header id="topnav" className="defaultscroll sticky">
           <div className="container">
-            {/* Logo container*/}
-            {/* <div>
-              <a className="logo" href="index.html">
-                <img src="images/logo-dark.png" height={22} alt="" />
-              </a>
-            </div> */}
-            {/* <div className="buy-button">
-              <a href="signup.html" className="btn btn-primary">
-                Signup
-              </a>
-            </div> */}
-            {/*end login button*/}
-            {/* End Logo container*/}
             <div className="menu-extras">
               <div className="menu-item">
                 {/* Mobile menu toggle*/}
@@ -87,49 +56,108 @@ const Company = () => {
               </div>
             </div>
           </div>
+
           {/*end container*/}
         </header>
         {/*end header*/}
         {/* Navbar End */}
         {/* Hero Start */}
-        <section className="bg-half bg-light d-table w-100">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-12 text-center">
-                <div className="title-heading">
-                  <h4>About Appgen</h4>
-                  <p className="text-muted para-desc mx-auto mt-3 mb-0">
-                    Brief information and story of Appgen Application
-                  </p>
-                  <nav aria-label="breadcrumb" className="d-inline-block mt-4">
-                    <ul className="breadcrumb mb-0">
-                      <li className="breadcrumb-item">
-                        <a href="index.html">Appgen</a>
-                      </li>
-                      <li
-                        className="breadcrumb-item active"
-                        aria-current="page"
-                      >
-                        About us
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              {/*end col*/}
-              <div className="home-shape-arrow">
-                <a href="#about" className="scroll-down">
-                  <i className="mdi mdi-arrow-down arrow-icon bg-light text-dark h5" />
-                </a>
-              </div>
-            </div>
-            {/*end row*/}
-          </div>{" "}
-          {/*end container*/}
+
+        <section
+          className="cm-style cm-banner home-hero home-slider-section"
+          id="container-p5"
+        >
+          {/* <video
+            className="home-section-video"
+            id="video_player"
+            autoPlay=""
+            loop=""
+            muted=""
+            playsInline=""
+          >
+            <source
+              src="https://videos.files.wordpress.com/RYYRqfQU/home-hero-video-1_hd.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video> */}
+
+          <video
+            className="home-section-video"
+            id="video_player"
+            autoPlay
+            loop
+            muted
+            playsInline
+            width="100%" // Set the desired width
+            style={{ maxWidth: "100%", height: "auto" }}
+          >
+            <source
+              src="https://videos.files.wordpress.com/RYYRqfQU/home-hero-video-1_hd.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="https://videos.files.wordpress.com/RYYRqfQU/home-hero-video-1_hd.webm"
+              type="video/webm"
+            />
+            Your browser does not support the video tag.
+          </video>
         </section>
+
         {/*end section*/}
         {/* Hero End */}
         {/* About Start */}
+
+        <div className="about-inner py-5 about-className">
+          <div className="container pb-xl-5 pb-lg-3">
+            <div className="row py-xl-4">
+              <h1>Welcome to TREENETS TECHNOLOGY SOLUTIONN PRIVATE LIMITED</h1>
+              <div className="col-lg-7 about-right-faq pr-7">
+                <p align="justify">
+                  Empowering Tomorrow: Transforming Human Lives with
+                  Cutting-Edge Technologies
+                </p>
+
+                <p align="justify">
+                  Welcome to TREENETS TECHNOLOGY SOLUTIONN PRIVATE LIMITED, a
+                  dynamic force in IT and Software Development, based in Pune,
+                  India since 2020. We shape the future by harnessing
+                  cutting-edge, reliable, flexible, and secure technologies,
+                  dedicated to transforming lives through innovative solutions
+                  that seamlessly integrate technology with human experiences..
+                </p>
+                <p align="justify">
+                  At TREENETS TECHNOLOGY SOLUTIONN, we envision technology as a
+                  catalyst for positive change, empowering individuals and
+                  businesses through custom solutions. Our core objective is to
+                  shape a world where technology goes beyond being a tool—it
+                  becomes a force for positive transformation.
+                </p>
+
+                <h4>Software Development Services We Provide:</h4>
+                <ul className="w3l-right-book mt-4">
+                  <li>Android, iOS App Development</li>
+                  <li>Java Software Development</li>
+                  <li>Angular JS Development</li>
+                  <li>Spring & Spring Boot Applications</li>
+                  <li>PHP Software Development</li>
+                  <li>Laravel & Codeigniter Development</li>
+                  <li>CMS Development (WordPress, Drupal, Joomla)</li>
+                  <li>E-commerce Development (OpenCart, Magento)</li>
+                </ul>
+              </div>
+              <div className="col-lg-5 welcome-right text-center mt-lg-0 mt-5">
+                <img
+                  src={company}
+                  alt="about_us"
+                  title="about us"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section className="section" id="about">
           <div className="container">
             <div className="row align-items-center">
@@ -285,136 +313,7 @@ const Company = () => {
           </div>
           {/*end container*/}
           {/* Features Start */}
-          <div className="container mt-100 mt-60">
-            <div className="row justify-content-center">
-              <div className="col-12">
-                <div className="section-title text-center mb-4 pb-2">
-                  <h6 className="text-primary font-weight-normal mb-3">
-                    Work Process
-                  </h6>
-                  <h4 className="title mb-4">How It Works ?</h4>
-                  <p className="para-desc mx-auto text-muted mb-0">
-                    Launch your campaign and benefit from our expertise on
-                    designing and managing conversion centered bootstrap4 html
-                    page.
-                  </p>
-                </div>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div className="feature position-relative text-center">
-                  <div className="p-4 rounded position-relative overflow-hidden">
-                    <div className="icon text-primary">
-                      <i className="uim uim-key-skeleton-alt" />
-                      <img
-                        src="images/shape-1.png"
-                        className="avatar avatar-small icon-shape"
-                        alt=""
-                      />
-                    </div>
-                    <div className="content mt-4">
-                      <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
-                          Create Account
-                        </a>
-                      </h5>
-                      <p className="text-muted">
-                        Due to its widespread use as filler text for layouts,
-                        non-readability is of great importance
-                      </p>
-                      <a href="javascript:void(0)" className="text-primary">
-                        Read More{" "}
-                        <i
-                          data-feather="chevron-right"
-                          className="fea icon-sm"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*end col*/}
-              <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div className="feature position-relative text-center">
-                  <div className="p-4 rounded position-relative overflow-hidden">
-                    <div className="icon text-primary">
-                      <i className="uim uim-signal-alt-3" />
-                      <img
-                        src="images/shape-1.png"
-                        className="avatar avatar-small icon-shape"
-                        alt=""
-                      />
-                    </div>
-                    <div className="content mt-4">
-                      <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
-                          Data Analysis
-                        </a>
-                      </h5>
-                      <p className="text-muted">
-                        Due to its widespread use as filler text for layouts,
-                        non-readability is of great importance
-                      </p>
-                      <a href="javascript:void(0)" className="text-primary">
-                        Read More{" "}
-                        <i
-                          data-feather="chevron-right"
-                          className="fea icon-sm"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*end col*/}
-              <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <div className="feature position-relative text-center">
-                  <div className="p-4 rounded position-relative overflow-hidden">
-                    <div className="icon text-primary">
-                      <i className="uim uim-flip-v" />
-                      <img
-                        src="images/shape-1.png"
-                        className="avatar avatar-small icon-shape"
-                        alt=""
-                      />
-                    </div>
-                    <div className="content mt-4">
-                      <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
-                          Show Result
-                        </a>
-                      </h5>
-                      <p className="text-muted">
-                        Due to its widespread use as filler text for layouts,
-                        non-readability is of great importance
-                      </p>
-                      <a href="javascript:void(0)" className="text-primary">
-                        Read More{" "}
-                        <i
-                          data-feather="chevron-right"
-                          className="fea icon-sm"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-          </div>
+
           {/*end container*/}
           {/* Team Start */}
           <div className="container mt-100 mt-60">
@@ -609,95 +508,7 @@ const Company = () => {
         {/*end section*/}
         {/* Client End */}
         {/* Footer Start */}
-        <footer className="bg-dark py-5">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-7 mb-3">
-                <div className="text-center">
-                  <a className="logo logo-footer" href="#">
-                    <img src="images/logo-light.png" height={25} alt="" />
-                  </a>
-                  <p className="text-muted para-desc mx-auto mt-3">
-                    Launch your campaign and benefit from our expertise on
-                    designing and managing conversion centered bootstrap4 html
-                    page.
-                  </p>
-                  <ul className="list-unstyled social-icon social mb-0 mt-4">
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Facebook className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="facebook"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Instagram className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="instagram"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Twitter className="fea icon-sm fea-social" />
-                        <i
-                          data-feather="twitter"
-                          className="fea icon-sm fea-social"
-                        />
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="javascript:void(0)" className="rounded">
-                        <Linkedin className="fea icon-sm fea-social" />
-                        {/* <i
-                        data-feather="linkedin"
-                        className="fea icon-sm fea-social"
-                      /> */}
-                      </a>
-                    </li>
-                  </ul>
-                  {/*end icon*/}
-                </div>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-          </div>
-          {/*end container*/}
-          {/* Back to top */}
-          <a href="#" className="back-to-top" id="back-to-top" title="Top">
-            <i className="mdi mdi-arrow-up icons bg-light text-dark"> </i>
-          </a>
-          {/* Back to top */}
-        </footer>
-        {/*end footer*/}
-        <footer className="footer-bar bg-dark">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 text-center">
-                <p className="mb-0 footer-text para-desc mx-auto">
-                  © <span className="text-reset">Appgen</span>. Design with{" "}
-                  <i className="mdi mdi-heart text-danger" /> by{" "}
-                  <a
-                    href="http://shreethemes.in"
-                    target="_blank"
-                    className="text-reset"
-                  >
-                    Shreethemes
-                  </a>
-                  .
-                </p>
-              </div>
-              {/*end col*/}
-            </div>
-            {/*end row*/}
-          </div>
-          {/*end container*/}
-        </footer>
+        <Footer />
         {/*end footer*/}
         {/* Footer End */}
         {/* Video Popup Start */}
@@ -709,12 +520,12 @@ const Company = () => {
         >
           <div className="modal-dialog modal-dialog-centered modal-lg">
             <div className="modal-content video-modal rounded overflow-hidden">
-              {/* <video class="w-100" controls autoplay muted loop>
+              {/* <video className="w-100" controls autoplay muted loop>
                   <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> */}
               {/*Browser does not support <video> tag */}
               {/* </video> */}
               {/*If you want to use your own video please set your files path*/}
-              {/* <div class="ratio ratio-16x9">
+              {/* <div className="ratio ratio-16x9">
                   <iframe src="https://www.youtube.com/embed/jNTZpfXYJa4?rel=0" title="YouTube video" allowfullscreen></iframe>
               </div> */}
               {/*If you want to use the youtube link please try the above code*/}

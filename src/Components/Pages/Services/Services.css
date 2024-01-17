@@ -1,0 +1,35 @@
+/* Additional Styles for Service Cards */
+#services .card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#services .card:hover {
+    transform: scale(1.05);
+}
+
+#services .card-body {
+    padding: 20px;
+}
+
+#services h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#services .btn.button-style {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#services .btn.button-style:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust the styling based on your design preferences */

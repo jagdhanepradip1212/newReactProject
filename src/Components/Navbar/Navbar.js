@@ -48,7 +48,12 @@ const Navbar = () => {
                 Pricing
               </NavLink>
             </li>
-
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/howework">
+                How we work
+              </NavLink>
+            </li>
+            {/* 
             <Nav>
               <li className="nav-item">
                 <NavDropdown title="Help" id="basic-nav-dropdown">
@@ -65,7 +70,13 @@ const Navbar = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
               </li>
-            </Nav>
+            </Nav> */}
+
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/contact">
+                Blog
+              </NavLink>
+            </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
@@ -75,11 +86,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="ml-auto">
+        {/* <div className="ml-auto">
           <NavLink className="btn btn-primary" to="/signup">
             Sign Up
           </NavLink>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
