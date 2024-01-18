@@ -68,7 +68,7 @@ const HelpFaq = () => {
           <div className="menu-extras">
             <div className="menu-item">
               {/* Mobile menu toggle*/}
-              <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
                 <div className="lines">
                   <span />
                   <span />
@@ -272,7 +272,7 @@ const HelpFaq = () => {
                 </p>
                 <ul className="list-unstyled social-icon social mb-0 mt-4">
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Facebook className="fea icon-sm fea-social" />
                       <i
                         data-feather="facebook"
@@ -281,7 +281,7 @@ const HelpFaq = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Instagram className="fea icon-sm fea-social" />
                       <i
                         data-feather="instagram"
@@ -290,7 +290,7 @@ const HelpFaq = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Twitter className="fea icon-sm fea-social" />
                       <i
                         data-feather="twitter"
@@ -299,7 +299,7 @@ const HelpFaq = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Linkedin className="fea icon-sm fea-social" />
                       <i
                         data-feather="linkedin"

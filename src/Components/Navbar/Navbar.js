@@ -19,8 +19,9 @@ const Navbar = () => {
           {/* Your Logo */}
           <div className="logo">
             <img
-              src="images/logo-dark.png"
-              height={25}
+              src="images/logo-tree1.png"
+              height={50}
+              width={100}
               className="d-block mx-auto"
               alt=""
             />
@@ -29,23 +30,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav list-unstyled ms-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" exact>
+              <NavLink className="nav-link" to="/" exact="true">
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/company">
-                Company
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink className="nav-link" to="/service">
                 Services
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/pricing">
-                Pricing
+              <NavLink className="nav-link" to="/technology">
+                Technologies
               </NavLink>
             </li>
             <li className="nav-item">
@@ -73,11 +70,15 @@ const Navbar = () => {
             </Nav> */}
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
+              <NavLink className="nav-link" to="/blog">
                 Blog
               </NavLink>
             </li>
-
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/company">
+                About
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
                 Contact

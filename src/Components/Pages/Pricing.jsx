@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <>
       <meta charSet="utf-8" />
-      <title>Appgen - App &amp; Saas Landing Template</title>
+      <title>Treenets Technology Solutions - App &amp; Saas Landing Template</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="App and Saas Landing Template" />
       <meta
@@ -69,7 +69,7 @@ const Pricing = () => {
           <div className="menu-extras">
             <div className="menu-item">
               {/* Mobile menu toggle*/}
-              <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
                 <div className="lines">
                   <span />
                   <span />
@@ -99,7 +99,7 @@ const Pricing = () => {
                 <nav aria-label="breadcrumb" className="d-inline-block mt-4">
                   <ul className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="index.html">Appgen</a>
+                      <a href="index.html">Treenets Technology Solutions</a>
                     </li>
                     <li className="breadcrumb-item">
                       <a href="index.html">Pages</a>
@@ -185,7 +185,7 @@ const Pricing = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Free Signup
                     </a>
                   </div>
@@ -251,7 +251,7 @@ const Pricing = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Subscribe Now
                     </a>
                   </div>
@@ -317,7 +317,7 @@ const Pricing = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-5">
-                    <a href="javascript:void(0)" className="btn btn-primary">
+                    <a href="/" className="btn btn-primary">
                       Buy Now
                     </a>
                   </div>
@@ -383,7 +383,7 @@ const Pricing = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Buy Premium
                     </a>
                   </div>
@@ -405,7 +405,7 @@ const Pricing = () => {
                     data-feather="help-circle"
                     className="fea icon-ex-md text-primary me-2"
                   />{" "}
-                  How our <span className="text-primary">Appgen</span> work ?
+                  How our <span className="text-primary">Treenets Technology Solutions</span> work ?
                 </h6>
                 <p className="answer text-muted mt-3 mb-0">
                   Due to its widespread use as filler text for layouts,
@@ -456,7 +456,7 @@ const Pricing = () => {
                     data-feather="help-circle"
                     className="fea icon-ex-md text-primary me-2"
                   />{" "}
-                  Is <span className="text-primary">Appgen</span> safer to use
+                  Is <span className="text-primary">Treenets Technology Solutions</span> safer to use
                   with my account ?
                 </h6>
                 <p className="answer text-muted mt-3 mb-0">
@@ -570,7 +570,7 @@ const Pricing = () => {
                 </p>
                 <ul className="list-unstyled social-icon social mb-0 mt-4">
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Facebook className="fea icon-sm fea-social" />
                       <i
                         data-feather="facebook"
@@ -579,7 +579,7 @@ const Pricing = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Instagram className="fea icon-sm fea-social" />
                       <i
                         data-feather="instagram"
@@ -588,7 +588,7 @@ const Pricing = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Twitter className="fea icon-sm fea-social" />
                       <i
                         data-feather="twitter"
@@ -597,7 +597,7 @@ const Pricing = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Linkedin className="fea icon-sm fea-social" />
                       {/* <i
                         data-feather="linkedin"
@@ -626,7 +626,7 @@ const Pricing = () => {
           <div className="row justify-content-center">
             <div className="col-12 text-center">
               <p className="mb-0 footer-text para-desc mx-auto">
-                © <span className="text-reset">Appgen</span>. Design with{" "}
+                © <span className="text-reset">Treenets Technology Solutions</span>. Design with{" "}
                 <i className="mdi mdi-heart text-danger" /> by{" "}
                 <a
                   href="http://shreethemes.in"

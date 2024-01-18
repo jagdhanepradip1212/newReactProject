@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "../../Footer/Footer";
 import "../Services/Services.css";
 import backgroundImage from "../../../assets/services.png";
+import AptFooter from "../../Footer/aptFooter";
 // import web from "../../assets/web3.jpg";
 // import "../Pages/Services.css";
 
@@ -17,9 +18,14 @@ const Service = () => {
   return (
     <>
       <meta charSet="utf-8" />
-      <title>Appgen - App &amp; Saas Landing Template</title>
+      <title>Services - Treenets Technology Solutions</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="App and Saas Landing Template" />
+      <link
+        media="all"
+        href="https://www.aptlogica.com/wp-content/cache/autoptimize/css/autoptimize_2f9dbe091aeec00f382beb4706c25aa9.css"
+        rel="stylesheet"
+      />
       <meta
         name="keywords"
         content="Application, Clean, Saas, Dashboard, Bootstrap 5"
@@ -60,7 +66,7 @@ const Service = () => {
           <div className="menu-extras">
             <div className="menu-item">
               {/* Mobile menu toggle*/}
-              <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
                 <div className="lines">
                   <span />
                   <span />
@@ -372,7 +378,7 @@ const Service = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Free Signup
                     </a>
                   </div>
@@ -438,7 +444,7 @@ const Service = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Subscribe Now
                     </a>
                   </div>
@@ -504,7 +510,7 @@ const Service = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-5">
-                    <a href="javascript:void(0)" className="btn btn-primary">
+                    <a href="/" className="btn btn-primary">
                       Buy Now
                     </a>
                   </div>
@@ -570,7 +576,7 @@ const Service = () => {
                     </li>
                   </ul>
                   <div className="border-top text-center py-4">
-                    <a href="javascript:void(0)" className="btn btn-dark">
+                    <a href="/" className="btn btn-dark">
                       Buy Premium
                     </a>
                   </div>
@@ -646,7 +652,8 @@ const Service = () => {
       {/*end section*/}
       {/* Client End */}
       {/* Footer Start */}
-      <Footer />
+      {/* <Footer /> */}
+      <AptFooter />
       {/*end footer*/}
       {/* Footer End */}
       {/* javascript */}

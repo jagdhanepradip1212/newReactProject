@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <meta charSet="utf-8" />
-      <title>Appgen - App &amp; Saas Landing Template</title>
+      <title>Contact - Treenets Technology Solutions</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="App and Saas Landing Template" />
       <meta
@@ -40,7 +40,7 @@ const Contact = () => {
                 <nav aria-label="breadcrumb" className="d-inline-block mt-4">
                   <ul className="breadcrumb mb-0">
                     <li className="breadcrumb-item">
-                      <a href="index.html">Appgen</a>
+                      <a href="index.html">Treenets Technology Solutions</a>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Contact Us
@@ -135,7 +135,7 @@ const Contact = () => {
                 <form
                   method="post"
                   name="myForm"
-                  onsubmit="return validateForm()"
+                  onSubmit="return validateForm()"
                 >
                   <p id="error-msg" />
                   <div id="simple-msg" />
@@ -373,8 +373,11 @@ const Contact = () => {
           <div className="row justify-content-center">
             <div className="col-12 text-center">
               <p className="mb-0 footer-text para-desc mx-auto">
-                © <span className="text-reset">Appgen</span>. Design with{" "}
-                <i className="mdi mdi-heart text-danger" /> by{" "}
+                ©{" "}
+                <span className="text-reset">
+                  Treenets Technology Solutions
+                </span>
+                . Design with <i className="mdi mdi-heart text-danger" /> by{" "}
                 <a
                   href="http://shreethemes.in"
                   target="_blank"

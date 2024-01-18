@@ -41,7 +41,7 @@ const HelpGuide = () => {
           <div className="menu-extras">
             <div className="menu-item">
               {/* Mobile menu toggle*/}
-              <a className="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
                 <div className="lines">
                   <span />
                   <span />
@@ -105,25 +105,25 @@ const HelpGuide = () => {
               <h5>Getting started</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Deciding to purchase
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     List your space
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Landing an experience or adventure
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Top uses questions
                   </a>
@@ -135,25 +135,25 @@ const HelpGuide = () => {
               <h5>Your calendar</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Pricing &amp; availability
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Booking settings
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Responding to enquiries &amp; requests
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Snoozing or deactivating your listing
                   </a>
@@ -165,31 +165,31 @@ const HelpGuide = () => {
               <h5>Your listings</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Updating your listing
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Neighbourhoods
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Listing photos &amp; photography
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Appgen Plus
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     API-connected software
                   </a>
@@ -201,31 +201,31 @@ const HelpGuide = () => {
               <h5>How payouts work</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Getting paid
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Adding payout info
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Your payout status
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Donations
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Taxes
                   </a>
@@ -237,31 +237,31 @@ const HelpGuide = () => {
               <h5>Your reservations</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Appgen safely
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Appgen Experiences and Adventures
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Changing a reservation
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Cancelling a reservation
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Long-term reservations
                   </a>
@@ -273,13 +273,13 @@ const HelpGuide = () => {
               <h5>Reservation help</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Help with a reservation or guest
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Guest cancellations
                   </a>
@@ -291,31 +291,31 @@ const HelpGuide = () => {
               <h5>Your account</h5>
               <ul className="list-unstyled mt-4 mb-0">
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Your profile
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Account security
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Identification &amp; verifications
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Reviews
                   </a>
                 </li>
                 <li className="mt-2">
-                  <a href="javascript:void(0)" className="text-muted">
+                  <a href="/" className="text-muted">
                     <i className="mdi mdi-arrow-right text-primary me-2" />
                     Superhost status
                   </a>
@@ -403,7 +403,7 @@ const HelpGuide = () => {
                 </p>
                 <ul className="list-unstyled social-icon social mb-0 mt-4">
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Facebook className="fea icon-sm fea-social" />
                       <i
                         data-feather="facebook"
@@ -412,7 +412,7 @@ const HelpGuide = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Instagram className="fea icon-sm fea-social" />
                       <i
                         data-feather="instagram"
@@ -421,7 +421,7 @@ const HelpGuide = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Twitter className="fea icon-sm fea-social" />
                       <i
                         data-feather="twitter"
@@ -430,7 +430,7 @@ const HelpGuide = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
+                    <a href="/" className="rounded">
                       <Linkedin className="fea icon-sm fea-social" />
                       <i
                         data-feather="linkedin"

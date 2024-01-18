@@ -14,6 +14,8 @@ import PrivatePolicy from "./Components/Utility/PrivatePolicy";
 import HelpFaq from "./Components/Help-Center/HelpFaq";
 import HelpGuide from "./Components/Help-Center/HelpGuide";
 import HoweWork from "./Components/Pages/HoweWork";
+import Technologies from "./Components/Technology/Technologies";
+import Blog from "./Components/Pages/Blog";
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
         <Route path="/guide" element={<HelpGuide />}></Route>
         <Route path="/howework" element={<HoweWork />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
         <Route path="/terms" element={<Terms />}></Route>
+        <Route path="/technology" element={<Technologies />}></Route>
 
         <Route path="/forgotpassword" element={<ForgotPass />}></Route>
       </Routes>

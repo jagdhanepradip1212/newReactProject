@@ -9,7 +9,7 @@ const Company = () => {
     <div>
       <>
         <meta charSet="utf-8" />
-        <title>Appgen - App &amp; Saas Landing Template</title>
+        <title>About - Treenets Technology Solutions</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="App and Saas Landing Template" />
         <meta
@@ -44,7 +44,7 @@ const Company = () => {
                 <a
                   className="navbar-toggle"
                   id="isToggle"
-                  onclick="toggleMenu()"
+                  onClick={"toggleMenu()"}
                 >
                   <div className="lines">
                     <span />
@@ -224,7 +224,7 @@ const Company = () => {
                   <h6 className="text-primary font-weight-normal mb-3">
                     About Us
                   </h6>
-                  <h4 className="title mb-4">Our Story : Appgen</h4>
+                  <h4 className="title mb-4">Our Story : Treenets Technology Solutions</h4>
                   <p className="text-muted mb-0">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Aut itaque quibusdam quas eveniet? Assumenda ducimus sint
@@ -239,7 +239,7 @@ const Company = () => {
                           className="fea text-primary"
                         />
                         <h6 className="ms-3 mb-0">
-                          <a href="javascript:void(0)" className="text-dark">
+                          <a href="/" className="text-dark">
                             Responsive
                           </a>
                         </h6>
@@ -252,7 +252,7 @@ const Company = () => {
                           className="fea text-primary"
                         />
                         <h6 className="ms-3 mb-0">
-                          <a href="javascript:void(0)" className="text-dark">
+                          <a href="/" className="text-dark">
                             Free Download
                           </a>
                         </h6>
@@ -262,7 +262,7 @@ const Company = () => {
                       <div className="d-flex align-items-center rounded shadow p-3">
                         <i data-feather="user" className="fea text-primary" />
                         <h6 className="ms-3 mb-0">
-                          <a href="javascript:void(0)" className="text-dark">
+                          <a href="/" className="text-dark">
                             Support
                           </a>
                         </h6>
@@ -275,7 +275,7 @@ const Company = () => {
                           className="fea text-primary"
                         />
                         <h6 className="ms-3 mb-0">
-                          <a href="javascript:void(0)" className="text-dark">
+                          <a href="/" className="text-dark">
                             Development
                           </a>
                         </h6>
@@ -283,10 +283,7 @@ const Company = () => {
                     </div>
                     <div className="col-12 mt-4 pt-2">
                       <div className="watch-video">
-                        <a
-                          href="javascript:void(0)"
-                          className="btn btn-primary mb-2 me-2"
-                        >
+                        <a href="/" className="btn btn-primary mb-2 me-2">
                           See More{" "}
                           <i
                             data-feather="chevron-right"
@@ -395,54 +392,7 @@ const Company = () => {
           {/*end container*/}
           {/* Team End */}
           {/* CTA Start */}
-          <div className="container mt-100 mt-60">
-            <div
-              className="py-5 px-4 bg-primary rounded-pill"
-              style={{ background: 'url("images/map.png") center center' }}
-            >
-              <div className="row justify-content-center">
-                <div className="col-12">
-                  <div className="section-title text-center mb-4 pb-2">
-                    <h4 className="title text-white mb-4">
-                      Subscribe our Newsletter
-                    </h4>
-                    <p className="text-white-50 mx-auto para-desc mb-0">
-                      Launch your campaign and benefit from our expertise on
-                      designing and managing conversion centered bootstrap4 html
-                      page.
-                    </p>
-                  </div>
-                </div>
-                {/*end col*/}
-                <div className="col-lg-8">
-                  <div className="text-center subcribe-form mt-4 pt-2">
-                    <form>
-                      <div className="form-group mb-0">
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          className="rounded-pill"
-                          placeholder="Your Email Id"
-                        />
-                        <button
-                          type="submit"
-                          className="btn btn-pills btn-success"
-                        >
-                          Subscribe Now
-                        </button>
-                      </div>
-                    </form>
-                    {/*end form*/}
-                  </div>
-                  {/*end subscribe form*/}
-                </div>
-                {/*end col*/}
-              </div>
-              {/*end row*/}
-            </div>
-            {/*end div*/}
-          </div>
+          
           {/*end container*/}
           {/* CTA End */}
         </section>

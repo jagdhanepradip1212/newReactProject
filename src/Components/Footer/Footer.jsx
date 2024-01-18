@@ -55,16 +55,14 @@ const Footer = () => {
               <p className="mb-0 footer-text para-desc mx-auto">
                 © 2024{" "}
                 <span className="text-reset">
-                  TREENETS TECHNOLOGY SOLUTIONN PRIVATE LIMITED
+                  TREENETS TECHNOLOGY SOLUTION PRIVATE LIMITED
                 </span>{" "}
-                <i className="mdi mdi-heart text-danger" /> 
+                <i className="mdi mdi-heart text-danger" />
                 <a
                   href="http://shreethemes.in"
                   target="_blank"
                   className="text-reset"
-                >
-                
-                </a>
+                ></a>
                 .
               </p>
             </div>

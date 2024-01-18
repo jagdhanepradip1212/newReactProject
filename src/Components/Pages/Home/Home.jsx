@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Home/Home.css";
+import "../../Pages/bog.css";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
 import Footer from "../../Footer/Footer";
 
@@ -15,7 +16,7 @@ const Home = () => {
     <div>
       <>
         <meta charSet="utf-8" />
-        <title>Appgen - App &amp; Saas Landing Template</title>
+        <title>Home - Treenets Technology Solutions</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="App and Saas Landing Template" />
         <meta
@@ -80,7 +81,7 @@ const Home = () => {
                 <a
                   className="navbar-toggle"
                   id="isToggle"
-                  onclick="toggleMenu()"
+                  onClick="toggleMenu()"
                 >
                   <div className="lines">
                     <span />
@@ -121,10 +122,7 @@ const Home = () => {
                     page.
                   </p>
                   <div className="watch-video mt-4">
-                    <a
-                      href="javascript:void(0)"
-                      className="btn btn-primary mb-2"
-                    >
+                    <a href="/" className="btn btn-primary mb-2">
                       Get Started
                     </a>
                     <a
@@ -254,10 +252,7 @@ const Home = () => {
                     </div>
                     <div className="content mt-4">
                       <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
+                        <a href="/" className="title text-dark">
                           Create Account
                         </a>
                       </h5>
@@ -265,7 +260,7 @@ const Home = () => {
                         Due to its widespread use as filler text for layouts,
                         non-readability is of great importance
                       </p>
-                      <a href="javascript:void(0)" className="text-primary">
+                      <a href="/" className="text-primary">
                         Read More{" "}
                         <i
                           data-feather="chevron-right"
@@ -290,10 +285,7 @@ const Home = () => {
                     </div>
                     <div className="content mt-4">
                       <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
+                        <a href="/" className="title text-dark">
                           Data Analysis
                         </a>
                       </h5>
@@ -301,7 +293,7 @@ const Home = () => {
                         Due to its widespread use as filler text for layouts,
                         non-readability is of great importance
                       </p>
-                      <a href="javascript:void(0)" className="text-primary">
+                      <a href="/" className="text-primary">
                         Read More{" "}
                         <i
                           data-feather="chevron-right"
@@ -326,10 +318,7 @@ const Home = () => {
                     </div>
                     <div className="content mt-4">
                       <h5>
-                        <a
-                          href="javascript:void(0)"
-                          className="title text-dark"
-                        >
+                        <a href="/" className="title text-dark">
                           Show Result
                         </a>
                       </h5>
@@ -337,7 +326,7 @@ const Home = () => {
                         Due to its widespread use as filler text for layouts,
                         non-readability is of great importance
                       </p>
-                      <a href="javascript:void(0)" className="text-primary">
+                      <a href="/" className="text-primary">
                         Read More{" "}
                         <i
                           data-feather="chevron-right"
@@ -400,10 +389,7 @@ const Home = () => {
                     </li>
                   </ul>
                   <div className="mt-4 pt-2">
-                    <a
-                      href="javascript:void(0)"
-                      className="btn btn-primary mb-2 me-2"
-                    >
+                    <a href="/" className="btn btn-primary mb-2 me-2">
                       Read More
                     </a>
                   </div>
@@ -413,6 +399,215 @@ const Home = () => {
             </div>
             {/*end row*/}
           </div>
+
+
+
+          <div
+            data-elementor-type="wp-page"
+            data-elementor-id={9}
+            className="elementor elementor-9"
+            data-elementor-post-type="page"
+          >
+          <section
+            className="elementor-section elementor-top-section elementor-element elementor-element-b7a3a49 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+            data-id="b7a3a49"
+            data-element_type="section"
+          >
+            <div className="elementor-container elementor-column-gap-default">
+              <div
+                className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fab7acf"
+                data-id="fab7acf"
+                data-element_type="column"
+                data-settings='{"background_background":"classic"}'
+              >
+                <div className="elementor-widget-wrap elementor-element-populated">
+                  <section
+                    className="elementor-section elementor-inner-section elementor-element elementor-element-565672b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="565672b"
+                    data-element_type="section"
+                    data-settings='{"background_background":"classic"}'
+                  >
+                    <div className="elementor-background-overlay" />
+                    <div className="elementor-container elementor-column-gap-default">
+                      <div
+                        className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7a68540"
+                        data-id="7a68540"
+                        data-element_type="column"
+                      >
+                        <div className="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            className="elementor-element elementor-element-64fd72d elementor-widget elementor-widget-heading"
+                            data-id="64fd72d"
+                            data-element_type="widget"
+                            data-widget_type="heading.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <h2 className="elementor-heading-title elementor-size-default">
+                                We believe in Excellence, Innovation &amp;
+                                Integrity
+                              </h2>{" "}
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-element elementor-element-3a79f3f elementor-widget elementor-widget-heading"
+                            data-id="3a79f3f"
+                            data-element_type="widget"
+                            data-widget_type="heading.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <p className="elementor-heading-title elementor-size-default">
+                                HummingBird strives to create Excellence, via
+                                Innovation, while maintaining Integrity of our
+                                actions.
+                              </p>{" "}
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-element elementor-element-f916669 elementor-tablet-align-center elementor-widget elementor-widget-button"
+                            data-id="f916669"
+                            data-element_type="widget"
+                            data-widget_type="button.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <div className="elementor-button-wrapper">
+                                <a
+                                  className="elementor-button elementor-button-link elementor-size-sm"
+                                  href="https://hbwsl.com/contact"
+                                >
+                                  <span className="elementor-button-content-wrapper">
+                                    <span className="elementor-button-text">
+                                      Get In Touch
+                                    </span>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div
+                className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4bf3281"
+                data-id="4bf3281"
+                data-element_type="column"
+              >
+                <div className="elementor-widget-wrap elementor-element-populated">
+                  <section
+                    className="elementor-section elementor-inner-section elementor-element elementor-element-73a4e24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="73a4e24"
+                    data-element_type="section"
+                    data-settings='{"background_background":"classic"}'
+                  >
+                    <div className="elementor-background-overlay" />
+                    <div className="elementor-container elementor-column-gap-default">
+                      <div
+                        className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fec9a60"
+                        data-id="fec9a60"
+                        data-element_type="column"
+                      >
+                        <div className="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            className="elementor-element elementor-element-ad1901f elementor-widget elementor-widget-heading"
+                            data-id="ad1901f"
+                            data-element_type="widget"
+                            data-widget_type="heading.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <h2 className="elementor-heading-title elementor-size-default">
+                                Our Culture
+                              </h2>{" "}
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-element elementor-element-cc6f3cd elementor-widget elementor-widget-heading"
+                            data-id="cc6f3cd"
+                            data-element_type="widget"
+                            data-widget_type="heading.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <p className="elementor-heading-title elementor-size-default">
+                                We strive to make our workplace inclusive, fun
+                                and energetic. Our team consists of energetic
+                                individuals who strive for excellence while
+                                having fun!
+                              </p>{" "}
+                            </div>
+                          </div>
+                          <div
+                            className="elementor-element elementor-element-27eeed7 elementor-widget-tablet__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                            data-id="27eeed7"
+                            data-element_type="widget"
+                            data-widget_type="icon-list.default"
+                          >
+                            <div className="elementor-widget-container">
+                              <link
+                                rel="stylesheet"
+                                href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"
+                              />{" "}
+                              <ul className="elementor-icon-list-items">
+                                <li className="elementor-icon-list-item">
+                                  <span className="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      className="fas fa-laptop-code"
+                                    />{" "}
+                                  </span>
+                                  <span className="elementor-icon-list-text">
+                                    Do Your Best - Put your heart and soul into
+                                    your work
+                                  </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                  <span className="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      className="fas fa-project-diagram"
+                                    />{" "}
+                                  </span>
+                                  <span className="elementor-icon-list-text">
+                                    Spread Love - Support each other and be
+                                    sensitive
+                                  </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                  <span className="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      className="fas fa-bullhorn"
+                                    />{" "}
+                                  </span>
+                                  <span className="elementor-icon-list-text">
+                                    Be Fearless - Don't be scared to fail, be
+                                    adventurous
+                                  </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                  <span className="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      className="fas fa-pencil-ruler"
+                                    />{" "}
+                                  </span>
+                                  <span className="elementor-icon-list-text">
+                                    Have Fun - Smile, Laugh &amp; have Fun
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+
           {/*end container*/}
           {/* Review Start */}
           <div className="container mt-100 mt-60">
@@ -741,7 +936,7 @@ const Home = () => {
                       }`}
                     >
                       <a
-                        href="javascript:void(0)"
+                        href="/"
                         className={`btn ${
                           isHovered ? "btn-primary" : "btn-dark"
                         } `}
@@ -832,7 +1027,7 @@ const Home = () => {
                       }`}
                     >
                       <a
-                        href="javascript:void(0)"
+                        href="/"
                         className={`btn ${
                           isSHovered ? "btn-primary" : "btn-dark"
                         }`}
@@ -902,7 +1097,7 @@ const Home = () => {
                       </li>
                     </ul>
                     <div className="border-top text-center py-5">
-                      <a href="javascript:void(0)" className="btn btn-primary">
+                      <a href="/" className="btn btn-primary">
                         Buy Now
                       </a>
                     </div>
@@ -989,7 +1184,7 @@ const Home = () => {
                       }`}
                     >
                       <a
-                        href="javascript:void(0)"
+                        href="/"
                         className={`btn ${
                           isFHovered ? "btn-primary" : "btn-dark"
                         }`}
@@ -1016,7 +1211,11 @@ const Home = () => {
                       data-feather="help-circle"
                       className="fea icon-ex-md text-primary me-2"
                     />{" "}
-                    How our <span className="text-primary">Appgen</span> work ?
+                    How our{" "}
+                    <span className="text-primary">
+                      Treenets Technology Solutions
+                    </span>{" "}
+                    work ?
                   </h6>
                   <p className="answer text-muted mt-3 mb-0">
                     Due to its widespread use as filler text for layouts,
@@ -1068,8 +1267,11 @@ const Home = () => {
                       data-feather="help-circle"
                       className="fea icon-ex-md text-primary me-2"
                     />{" "}
-                    Is <span className="text-primary">Appgen</span> safer to use
-                    with my account ?
+                    Is{" "}
+                    <span className="text-primary">
+                      Treenets Technology Solutions
+                    </span>{" "}
+                    safer to use with my account ?
                   </h6>
                   <p className="answer text-muted mt-3 mb-0">
                     The most well-known dummy text is the 'Lorem Ipsum', which
