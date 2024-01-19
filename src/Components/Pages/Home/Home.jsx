@@ -400,212 +400,210 @@ const Home = () => {
             {/*end row*/}
           </div>
 
-
-
           <div
             data-elementor-type="wp-page"
             data-elementor-id={9}
             className="elementor elementor-9"
             data-elementor-post-type="page"
           >
-          <section
-            className="elementor-section elementor-top-section elementor-element elementor-element-b7a3a49 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-            data-id="b7a3a49"
-            data-element_type="section"
-          >
-            <div className="elementor-container elementor-column-gap-default">
-              <div
-                className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fab7acf"
-                data-id="fab7acf"
-                data-element_type="column"
-                data-settings='{"background_background":"classic"}'
-              >
-                <div className="elementor-widget-wrap elementor-element-populated">
-                  <section
-                    className="elementor-section elementor-inner-section elementor-element elementor-element-565672b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="565672b"
-                    data-element_type="section"
-                    data-settings='{"background_background":"classic"}'
-                  >
-                    <div className="elementor-background-overlay" />
-                    <div className="elementor-container elementor-column-gap-default">
-                      <div
-                        className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7a68540"
-                        data-id="7a68540"
-                        data-element_type="column"
-                      >
-                        <div className="elementor-widget-wrap elementor-element-populated">
-                          <div
-                            className="elementor-element elementor-element-64fd72d elementor-widget elementor-widget-heading"
-                            data-id="64fd72d"
-                            data-element_type="widget"
-                            data-widget_type="heading.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <h2 className="elementor-heading-title elementor-size-default">
-                                We believe in Excellence, Innovation &amp;
-                                Integrity
-                              </h2>{" "}
+            <section
+              className="elementor-section elementor-top-section elementor-element elementor-element-b7a3a49 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+              data-id="b7a3a49"
+              data-element_type="section"
+            >
+              <div className="elementor-container elementor-column-gap-default">
+                <div
+                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fab7acf"
+                  data-id="fab7acf"
+                  data-element_type="column"
+                  data-settings='{"background_background":"classic"}'
+                >
+                  <div className="elementor-widget-wrap elementor-element-populated">
+                    <section
+                      className="elementor-section elementor-inner-section elementor-element elementor-element-565672b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      data-id="565672b"
+                      data-element_type="section"
+                      data-settings='{"background_background":"classic"}'
+                    >
+                      <div className="elementor-background-overlay" />
+                      <div className="elementor-container elementor-column-gap-default">
+                        <div
+                          className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7a68540"
+                          data-id="7a68540"
+                          data-element_type="column"
+                        >
+                          <div className="elementor-widget-wrap elementor-element-populated">
+                            <div
+                              className="elementor-element elementor-element-64fd72d elementor-widget elementor-widget-heading"
+                              data-id="64fd72d"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <h2 className="elementor-heading-title elementor-size-default">
+                                  We believe in Excellence, Innovation &amp;
+                                  Integrity
+                                </h2>{" "}
+                              </div>
                             </div>
-                          </div>
-                          <div
-                            className="elementor-element elementor-element-3a79f3f elementor-widget elementor-widget-heading"
-                            data-id="3a79f3f"
-                            data-element_type="widget"
-                            data-widget_type="heading.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <p className="elementor-heading-title elementor-size-default">
-                                HummingBird strives to create Excellence, via
-                                Innovation, while maintaining Integrity of our
-                                actions.
-                              </p>{" "}
+                            <div
+                              className="elementor-element elementor-element-3a79f3f elementor-widget elementor-widget-heading"
+                              data-id="3a79f3f"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <p className="elementor-heading-title elementor-size-default">
+                                  Treenets Technology Solutions strives to
+                                  create Excellence, via Innovation, while
+                                  maintaining Integrity of our actions.
+                                </p>{" "}
+                              </div>
                             </div>
-                          </div>
-                          <div
-                            className="elementor-element elementor-element-f916669 elementor-tablet-align-center elementor-widget elementor-widget-button"
-                            data-id="f916669"
-                            data-element_type="widget"
-                            data-widget_type="button.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <div className="elementor-button-wrapper">
-                                <a
-                                  className="elementor-button elementor-button-link elementor-size-sm"
-                                  href="https://hbwsl.com/contact"
-                                >
-                                  <span className="elementor-button-content-wrapper">
-                                    <span className="elementor-button-text">
-                                      Get In Touch
+                            <div
+                              className="elementor-element elementor-element-f916669 elementor-tablet-align-center elementor-widget elementor-widget-button"
+                              data-id="f916669"
+                              data-element_type="widget"
+                              data-widget_type="button.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <div className="elementor-button-wrapper">
+                                  <a
+                                    className="elementor-button elementor-button-link elementor-size-sm"
+                                    href="/contact"
+                                  >
+                                    <span className="elementor-button-content-wrapper">
+                                      <span className="elementor-button-text">
+                                        Get In Touch
+                                      </span>
                                     </span>
-                                  </span>
-                                </a>
+                                  </a>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </section>
+                    </section>
+                  </div>
                 </div>
-              </div>
-              <div
-                className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4bf3281"
-                data-id="4bf3281"
-                data-element_type="column"
-              >
-                <div className="elementor-widget-wrap elementor-element-populated">
-                  <section
-                    className="elementor-section elementor-inner-section elementor-element elementor-element-73a4e24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="73a4e24"
-                    data-element_type="section"
-                    data-settings='{"background_background":"classic"}'
-                  >
-                    <div className="elementor-background-overlay" />
-                    <div className="elementor-container elementor-column-gap-default">
-                      <div
-                        className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fec9a60"
-                        data-id="fec9a60"
-                        data-element_type="column"
-                      >
-                        <div className="elementor-widget-wrap elementor-element-populated">
-                          <div
-                            className="elementor-element elementor-element-ad1901f elementor-widget elementor-widget-heading"
-                            data-id="ad1901f"
-                            data-element_type="widget"
-                            data-widget_type="heading.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <h2 className="elementor-heading-title elementor-size-default">
-                                Our Culture
-                              </h2>{" "}
+                <div
+                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4bf3281"
+                  data-id="4bf3281"
+                  data-element_type="column"
+                >
+                  <div className="elementor-widget-wrap elementor-element-populated">
+                    <section
+                      className="elementor-section elementor-inner-section elementor-element elementor-element-73a4e24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      data-id="73a4e24"
+                      data-element_type="section"
+                      data-settings='{"background_background":"classic"}'
+                    >
+                      <div className="elementor-background-overlay" />
+                      <div className="elementor-container elementor-column-gap-default">
+                        <div
+                          className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-fec9a60"
+                          data-id="fec9a60"
+                          data-element_type="column"
+                        >
+                          <div className="elementor-widget-wrap elementor-element-populated">
+                            <div
+                              className="elementor-element elementor-element-ad1901f elementor-widget elementor-widget-heading"
+                              data-id="ad1901f"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <h2 className="elementor-heading-title elementor-size-default">
+                                  Our Culture
+                                </h2>{" "}
+                              </div>
                             </div>
-                          </div>
-                          <div
-                            className="elementor-element elementor-element-cc6f3cd elementor-widget elementor-widget-heading"
-                            data-id="cc6f3cd"
-                            data-element_type="widget"
-                            data-widget_type="heading.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <p className="elementor-heading-title elementor-size-default">
-                                We strive to make our workplace inclusive, fun
-                                and energetic. Our team consists of energetic
-                                individuals who strive for excellence while
-                                having fun!
-                              </p>{" "}
+                            <div
+                              className="elementor-element elementor-element-cc6f3cd elementor-widget elementor-widget-heading"
+                              data-id="cc6f3cd"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <p className="elementor-heading-title elementor-size-default">
+                                  We strive to make our workplace inclusive, fun
+                                  and energetic. Our team consists of energetic
+                                  individuals who strive for excellence while
+                                  having fun!
+                                </p>{" "}
+                              </div>
                             </div>
-                          </div>
-                          <div
-                            className="elementor-element elementor-element-27eeed7 elementor-widget-tablet__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                            data-id="27eeed7"
-                            data-element_type="widget"
-                            data-widget_type="icon-list.default"
-                          >
-                            <div className="elementor-widget-container">
-                              <link
-                                rel="stylesheet"
-                                href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"
-                              />{" "}
-                              <ul className="elementor-icon-list-items">
-                                <li className="elementor-icon-list-item">
-                                  <span className="elementor-icon-list-icon">
-                                    <i
-                                      aria-hidden="true"
-                                      className="fas fa-laptop-code"
-                                    />{" "}
-                                  </span>
-                                  <span className="elementor-icon-list-text">
-                                    Do Your Best - Put your heart and soul into
-                                    your work
-                                  </span>
-                                </li>
-                                <li className="elementor-icon-list-item">
-                                  <span className="elementor-icon-list-icon">
-                                    <i
-                                      aria-hidden="true"
-                                      className="fas fa-project-diagram"
-                                    />{" "}
-                                  </span>
-                                  <span className="elementor-icon-list-text">
-                                    Spread Love - Support each other and be
-                                    sensitive
-                                  </span>
-                                </li>
-                                <li className="elementor-icon-list-item">
-                                  <span className="elementor-icon-list-icon">
-                                    <i
-                                      aria-hidden="true"
-                                      className="fas fa-bullhorn"
-                                    />{" "}
-                                  </span>
-                                  <span className="elementor-icon-list-text">
-                                    Be Fearless - Don't be scared to fail, be
-                                    adventurous
-                                  </span>
-                                </li>
-                                <li className="elementor-icon-list-item">
-                                  <span className="elementor-icon-list-icon">
-                                    <i
-                                      aria-hidden="true"
-                                      className="fas fa-pencil-ruler"
-                                    />{" "}
-                                  </span>
-                                  <span className="elementor-icon-list-text">
-                                    Have Fun - Smile, Laugh &amp; have Fun
-                                  </span>
-                                </li>
-                              </ul>
+                            <div
+                              className="elementor-element elementor-element-27eeed7 elementor-widget-tablet__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                              data-id="27eeed7"
+                              data-element_type="widget"
+                              data-widget_type="icon-list.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <link
+                                  rel="stylesheet"
+                                  href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"
+                                />{" "}
+                                <ul className="elementor-icon-list-items">
+                                  <li className="elementor-icon-list-item">
+                                    <span className="elementor-icon-list-icon">
+                                      <i
+                                        aria-hidden="true"
+                                        className="fas fa-laptop-code"
+                                      />{" "}
+                                    </span>
+                                    <span className="elementor-icon-list-text">
+                                      Do Your Best - Put your heart and soul
+                                      into your work
+                                    </span>
+                                  </li>
+                                  <li className="elementor-icon-list-item">
+                                    <span className="elementor-icon-list-icon">
+                                      <i
+                                        aria-hidden="true"
+                                        className="fas fa-project-diagram"
+                                      />{" "}
+                                    </span>
+                                    <span className="elementor-icon-list-text">
+                                      Spread Love - Support each other and be
+                                      sensitive
+                                    </span>
+                                  </li>
+                                  <li className="elementor-icon-list-item">
+                                    <span className="elementor-icon-list-icon">
+                                      <i
+                                        aria-hidden="true"
+                                        className="fas fa-bullhorn"
+                                      />{" "}
+                                    </span>
+                                    <span className="elementor-icon-list-text">
+                                      Be Fearless - Don't be scared to fail, be
+                                      adventurous
+                                    </span>
+                                  </li>
+                                  <li className="elementor-icon-list-item">
+                                    <span className="elementor-icon-list-icon">
+                                      <i
+                                        aria-hidden="true"
+                                        className="fas fa-pencil-ruler"
+                                      />{" "}
+                                    </span>
+                                    <span className="elementor-icon-list-text">
+                                      Have Fun - Smile, Laugh &amp; have Fun
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </section>
+                    </section>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
           </div>
 
           {/*end container*/}

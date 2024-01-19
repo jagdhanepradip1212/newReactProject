@@ -4,6 +4,17 @@ import Footer from "../../Footer/Footer";
 import "../Services/Services.css";
 import backgroundImage from "../../../assets/services.png";
 import AptFooter from "../../Footer/aptFooter";
+import android from "../../../assets/services/android_logo.png";
+import web from "../../../assets/services/develop.jpg";
+import QA from "../../../assets/services/qa.png";
+import seo from "../../../assets/services/seo.jpg";
+import php from "../../../assets/services/php.png";
+import spring from "../../../assets/services/spring.png";
+import iot from "../../../assets/services/iot.png";
+import ios from "../../../assets/services/ios.png";
+import native from "../../../assets/services/native.png";
+import code from "../../../assets/services/code.png";
+
 // import web from "../../assets/web3.jpg";
 // import "../Pages/Services.css";
 
@@ -120,12 +131,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>Android App Development</h6>
-                  <a
-                    href="android-app-development.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={android}
+                    alt="Android App Development"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -146,12 +156,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>WebSite Design And Development</h6>
-                  <a
-                    href="website-design-and-development.php"
-                    className="btn button-style mt-md-6 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={web}
+                    alt="WebSite Design"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -159,12 +168,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>QA and Testing</h6>
-                  <a
-                    href="qa-and-testing.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={QA}
+                    alt="QA and Testing"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -175,12 +183,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>SEO and SEM</h6>
-                  <a
-                    href="seo-and-sem.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={seo}
+                    alt="SEO and TEsting"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -188,12 +195,11 @@ const Service = () => {
               <div className="card active">
                 <div className="card-body">
                   <h6>Php Laravel Development</h6>
-                  <a
-                    href="php-laravel-development.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={php}
+                    alt="Php Laravel Development"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -201,12 +207,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>Java Spring Development</h6>
-                  <a
-                    href="java-spring-development.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={spring}
+                    alt="Java Spring Development"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -214,12 +219,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>Internet of Things(IoT)</h6>
-                  <a
-                    href="internet-of-thing.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={iot}
+                    alt="Internet of Things"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -243,12 +247,11 @@ const Service = () => {
               <div className="card">
                 <div className="card-body">
                   <h6>IOS Development</h6>
-                  <a
-                    href="ios-development.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={ios}
+                    alt="IOS Development"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -256,12 +259,11 @@ const Service = () => {
               <div className="card active">
                 <div className="card-body">
                   <h6>Codeigniter</h6>
-                  <a
-                    href="codeigniter.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={code}
+                    alt="Codeigniter"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>
@@ -269,12 +271,11 @@ const Service = () => {
               <div className="card active">
                 <div className="card-body">
                   <h6>React Native</h6>
-                  <a
-                    href="react-native.php"
-                    className="btn button-style mt-md-5 mt-4"
-                  >
-                    Read More
-                  </a>
+                  <img
+                    src={native}
+                    alt="React Native"
+                    class="img-fluid mt-md-5 mt-4"
+                  />
                 </div>
               </div>
             </div>

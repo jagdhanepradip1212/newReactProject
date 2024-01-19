@@ -399,7 +399,7 @@ const Company = () => {
         {/*end section*/}
         {/* About End */}
         {/* Client Start */}
-        <section className="py-4 bg-light">
+        {/* <section className="py-4 bg-light">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
@@ -409,7 +409,6 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
                 <img
                   src="images/client/google.svg"
@@ -417,7 +416,6 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
                 <img
                   src="images/client/lenovo.svg"
@@ -425,7 +423,6 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
                 <img
                   src="images/client/paypal.svg"
@@ -433,7 +430,6 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
                 <img
                   src="images/client/shopify.svg"
@@ -441,7 +437,6 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
               <div className="col-lg-2 col-md-2 col-6 text-center py-4">
                 <img
                   src="images/client/spotify.svg"
@@ -449,12 +444,9 @@ const Company = () => {
                   alt=""
                 />
               </div>
-              {/*end col*/}
             </div>
-            {/*end row*/}
           </div>
-          {/*end container*/}
-        </section>
+        </section> */}
         {/*end section*/}
         {/* Client End */}
         {/* Footer Start */}
