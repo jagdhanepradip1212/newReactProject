@@ -30,26 +30,43 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav list-unstyled ms-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" exact="true">
+              <NavLink
+                className="nav-link"
+                to="/"
+                exact="true"
+                activeClassName="active"
+              >
                 Home
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/service">
+              <NavLink
+                className="nav-link"
+                to="/service"
+                activeClassName="active"
+              >
                 Services
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/technology">
+              <NavLink
+                className="nav-link"
+                to="/technology"
+                activeClassName="active"
+              >
                 Technologies
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/howework">
+            {/* <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/howework"
+                activeClassName="active"
+              >
                 How we work
               </NavLink>
-            </li>
+            </li> */}
             {/* 
             <Nav>
               <li className="nav-item">
@@ -70,17 +87,25 @@ const Navbar = () => {
             </Nav> */}
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/blog">
+              <NavLink className="nav-link" to="/blog" activeClassName="active">
                 Blog
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/company">
+              <NavLink
+                className="nav-link"
+                to="/company"
+                activeClassName="active"
+              >
                 About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
+              <NavLink
+                className="nav-link"
+                to="/contact"
+                activeClassName="active"
+              >
                 Contact
               </NavLink>
             </li>
