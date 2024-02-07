@@ -22,17 +22,17 @@ const Footer = () => {
                     <a href="javascript:void(0)" className="rounded">
                       <Facebook className="fea icon-sm fea-social" />
                     </a>
-                  </li>
+                  </li>{" "}
                   <li className="list-inline-item">
                     <a href="javascript:void(0)" className="rounded">
                       <Instagram className="fea icon-sm fea-social" />
                     </a>
-                  </li>
+                  </li>{" "}
                   <li className="list-inline-item">
                     <a href="javascript:void(0)" className="rounded">
                       <Twitter className="fea icon-sm fea-social" />
                     </a>
-                  </li>
+                  </li>{" "}
                   <li className="list-inline-item">
                     <a href="javascript:void(0)" className="rounded">
                       <Linkedin className="fea icon-sm fea-social" />

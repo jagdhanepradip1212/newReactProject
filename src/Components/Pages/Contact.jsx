@@ -1,7 +1,10 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
+  const contactPhone = process.env.REACT_APP_CONTACT_PHONE;
+  const contactEmail = process.env.REACT_APP_CONTACT_EMAIL;
   return (
     <>
       <meta charSet="utf-8" />
@@ -77,7 +80,7 @@ const Contact = () => {
                 <div className="content ms-3">
                   <h5 className="title mb-0">Phone</h5>
                   <a href="tel:+152534-468-854" className="text-primary">
-                    +152 534-468-854
+                    {contactPhone}
                   </a>
                 </div>
               </div>
@@ -94,7 +97,7 @@ const Contact = () => {
                 <div className="content ms-3">
                   <h5 className="title mb-0">Email Id</h5>
                   <a href="mailto:contact@example.com" className="text-primary">
-                    contact@example.com
+                    {contactEmail}
                   </a>
                 </div>
               </div>
@@ -226,12 +229,23 @@ const Contact = () => {
           <div className="row">
             <div className="col-12">
               <div className="map">
-                <iframe
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5263240807158!2d73.82026867423579!3d18.459803771029502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2954062e82d77%3A0x6080a70602439efb!2z4KS44KSoIOCkr-ClgeCkqOCkv-CkteCljeCkueCksOCljeCkuA!5e0!3m2!1smr!2sin!4v1706183942955!5m2!1smr!2sin"
+               width="600"
+                height="450"
+                className="rounded"
+                 style={{border: 0}} 
+                 allowfullscreen=""
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
                   style={{ border: 0 }}
                   className="rounded"
                   allowFullScreen=""
-                />
+                /> */}
               </div>
             </div>
             {/*end col*/}
@@ -240,6 +254,7 @@ const Contact = () => {
         </div>
         {/*end container*/}
       </section>
+
       {/*end section*/}
       {/* About End */}
       {/* Client Start */}
@@ -300,106 +315,12 @@ const Contact = () => {
         {/*end container*/}
       </section>
       {/*end section*/}
-      {/* Client End */}
+
       {/* Footer Start */}
-      <footer className="bg-dark py-5">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-7 mb-3">
-              <div className="text-center">
-                <a className="logo logo-footer" href="#">
-                  <img src="images/logo-light.png" height={25} alt="" />
-                </a>
-                <p className="text-muted para-desc mx-auto mt-3">
-                  Launch your campaign and benefit from our expertise on
-                  designing and managing conversion centered bootstrap4 html
-                  page.
-                </p>
-                <ul className="list-unstyled social-icon social mb-0 mt-4">
-                  <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
-                      <Facebook className="fea icon-sm fea-social" />
-                      <i
-                        data-feather="facebook"
-                        className="fea icon-sm fea-social"
-                      />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
-                      <Instagram className="fea icon-sm fea-social" />
-                      <i
-                        data-feather="instagram"
-                        className="fea icon-sm fea-social"
-                      />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
-                      <Twitter className="fea icon-sm fea-social" />
-                      <i
-                        data-feather="twitter"
-                        className="fea icon-sm fea-social"
-                      />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="javascript:void(0)" className="rounded">
-                      <Linkedin className="fea icon-sm fea-social" />
-                      {/* <i
-                        data-feather="linkedin"
-                        className="fea icon-sm fea-social"
-                      /> */}
-                    </a>
-                  </li>
-                </ul>
-                {/*end icon*/}
-              </div>
-            </div>
-            {/*end col*/}
-          </div>
-          {/*end row*/}
-        </div>
-        {/*end container*/}
-        {/* Back to top */}
-        <a href="#" className="back-to-top" id="back-to-top" title="Top">
-          <i className="mdi mdi-arrow-up icons bg-light text-dark"> </i>
-        </a>
-        {/* Back to top */}
-      </footer>
+
+      <Footer />
+
       {/*end footer*/}
-      <footer className="footer-bar bg-dark">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-12 text-center">
-              <p className="mb-0 footer-text para-desc mx-auto">
-                ©{" "}
-                <span className="text-reset">
-                  Treenets Technology Solutions
-                </span>
-                . Design with <i className="mdi mdi-heart text-danger" /> by{" "}
-                <a
-                  href="http://shreethemes.in"
-                  target="_blank"
-                  className="text-reset"
-                >
-                  Shreethemes
-                </a>
-                .
-              </p>
-            </div>
-            {/*end col*/}
-          </div>
-          {/*end row*/}
-        </div>
-        {/*end container*/}
-      </footer>
-      {/*end footer*/}
-      {/* Footer End */}
-      {/* javascript */}
-      {/* Icon */}
-      {/* Contact */}
-      {/* Main Js */}
     </>
   );
 };

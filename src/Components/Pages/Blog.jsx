@@ -86,21 +86,21 @@ const Blog = () => {
               "\n/*! This file is auto-generated */\n.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}\n",
           }}
         />
-        
+
         <link
           rel="stylesheet"
           id="responsive-style-css"
           href="https://eadn-wc05-6928584.nxedge.io/wp-content/themes/responsive/core/css/style.min.css?ver=4.8.7"
           media="all"
         />
-        
+
         <link
           rel="stylesheet"
           id="responsive-pro-style-css"
           href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-addons-pro/includes/css/style.min.css?ver=2.5.0"
           media="all"
         />
-       
+
         <link
           rel="stylesheet"
           id="responsive-addons-pro-css"
@@ -430,7 +430,7 @@ const Blog = () => {
                     <div className="site-title-tagline"></div>
                   </div>
                 </div>
-               
+
                 {/* Adding Overlay Div When Mobile menu is Sidebar menu */}
               </div>
             </div>
@@ -510,7 +510,7 @@ const Blog = () => {
                 </div>
               </div>
             </section>
-           
+
             <section
               className="elementor-section elementor-top-section elementor-element elementor-element-e3f1dd9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
               data-id="e3f1dd9"
@@ -1102,15 +1102,8 @@ const Blog = () => {
                 </div>
               </div>
             </section>
-          
-           
-           
-           
-          
-           
-           
           </div>
-         
+
           {/* end #footer */}
         </div>
         {/* end of #container */}

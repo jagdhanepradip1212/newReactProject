@@ -88,7 +88,7 @@ const AptFooter = () => {
                     How we work
                   </a>
                 </p>
-                
+
                 {/* <p>
                   <a href="https://www.aptlogica.com/careers/">careers</a>
                 </p> */}
@@ -140,7 +140,7 @@ const AptFooter = () => {
       </footer>
       <footer className="footer-bottom">
         <div className="container">
-          <p>©aptlogica.com 2015-2022. All rights reserved.</p>
+          <p>©Treenets Technology 2020-2024. All rights reserved.</p>
         </div>
       </footer>
       <div id="cookie-law-info-bar" data-nosnippet="true">

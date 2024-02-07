@@ -12,8 +12,8 @@ const Technologies = () => {
       {/*<![endif]*/}
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="profile" href="https://gmpg.org/xfn/11" />
-      <link rel="pingback" href="https://hbwsl.com/xmlrpc.php" />
+      <link rel="profile" href="" />
+      <link rel="pingback" href="" />
       {/* Search Engine Optimization by Rank Math - https://rankmath.com/ */}
       <title>Technologies - Treenets Technology Solutions</title>
       <meta name="description" content="Cutting Edge Technology Stack" />
@@ -21,7 +21,7 @@ const Technologies = () => {
         name="robots"
         content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
       />
-      <link rel="canonical" href="https://hbwsl.com/capabilities/" />
+      <link rel="canonical" href="" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="article" />
       <meta
@@ -29,7 +29,7 @@ const Technologies = () => {
         content="Capabilities - Hummingbird Web Solutions"
       />
       <meta property="og:description" content="Cutting Edge Technology Stack" />
-      <meta property="og:url" content="https://hbwsl.com/capabilities/" />
+      <meta property="og:url" content="" />
       <meta
         property="og:site_name"
         content="Hummingbird Web Solutions Pvt. Ltd."
@@ -75,176 +75,13 @@ const Technologies = () => {
         href="https://hbwsl.com/comments/feed/"
       />
 
-      {/* <link
-        rel="stylesheet"
-        id="responsive-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/themes/responsive/core/css/style.min.css?ver=4.8.7"
-        media="all"
-      /> */}
-
-      {/* <link
-        rel="stylesheet"
-        id="responsive-pro-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-addons-pro/includes/css/style.min.css?ver=2.5.0"
-        media="all"
-      /> */}
-
-      {/* <link
-        rel="stylesheet"
-        id="responsive-addons-pro-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-addons-pro/public/css/responsive-addons-pro-public.css?ver=2.5.0"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="dashicons-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-includes/css/dashicons.min.css?ver=6.4.2"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="elementor-icons-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="elementor-frontend-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="swiper-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="elementor-post-318-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/elementor/css/post-318.css?ver=1703174625"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="font-awesome-5-all-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.18.3"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="font-awesome-4-shim-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.18.3"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="rea-frontend-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/css/frontend.min.css?ver=1.9.9"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="mediaelement-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="wp-mediaelement-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.4.2"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="elementor-pro-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.16.2"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="elementor-post-13-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/elementor/css/post-13.css?ver=1703175392"
-        media="all"
-      /> */}
       <link
         rel="stylesheet"
         id="wpforms-classic-full-css"
         href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/wpforms-lite/assets/css/frontend/classic/wpforms-full.min.css?ver=1.8.5.3"
         media="all"
       />
-      {/* <link
-        rel="stylesheet"
-        id="icomoon-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/themes/responsive/core/css/icomoon/style.min.css?ver=4.8.7"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="responsive-google-font-lato-css"
-        href="//fonts.googleapis.com/css?family=Lato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&ver=6.4.2"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="responsive-google-font-montserrat-css"
-        href="//fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&ver=6.4.2"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="rea-fancybox-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/fancybox/jquery-fancybox.min.css?ver=1.9.9"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="rea-plyr-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/plyr/plyr.min.css?ver=1.9.9"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="rea-magnific-popup-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/magnific-popup/magnific-popup.min.css?ver=1.9.9"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="rea-photoswipe-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/photoswipe/photoswipe.min.css?ver=1.9.9"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="rea-photoswipe-default-skin-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/photoswipe/default-skin.min.css?ver=1.9.9"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="rea-animate-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/animate/animate.min.css?ver=1.9.9"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="rea-particles-style-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/particles/particles.min.css?ver=1.9.9"
-        media="all"
-      /> */}
-      {/* <link
-        rel="stylesheet"
-        id="rea-particles-style-rtl-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/responsive-elementor-addons/assets/lib/particles/particles-rtl.min.css?ver=1.9.9"
-        media="all"
-      />
-      <link
-        rel="stylesheet"
-        id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.4.2"
-        media="all"
-      /> */}
+
       <link
         rel="stylesheet"
         id="elementor-icons-shared-0-css"
@@ -257,12 +94,7 @@ const Technologies = () => {
         href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
         media="all"
       />
-      {/* <link
-        rel="stylesheet"
-        id="elementor-icons-fa-brands-css"
-        href="https://eadn-wc05-6928584.nxedge.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-        media="all"
-      /> */}
+
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="" />
       <link rel="https://api.w.org/" href="https://hbwsl.com/wp-json/" />
       <link
@@ -351,72 +183,7 @@ const Technologies = () => {
                 className="site-branding"
                 itemScope=""
                 itemType="https://schema.org/Organization"
-              >
-                {/* <div className="s">
-                  <a
-                    href="https://hbwsl.com/"
-                    className="custom-logo-link"
-                    rel="home"
-                    itemProp="url"
-                  >
-                    <img
-                      width={200}
-                      height={87}
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABXAQAAAABpEzelAAAAAnRSTlMAAHaTzTgAAAAYSURBVHjaYxgFo2AUjIJRMApGwSgYFgAACNYAAWZmNS8AAAAASUVORK5CYII="
-                      className="custom-logo lazyload"
-                      alt="Hummingbird Web Solutions"
-                      itemProp="logo"
-                      decoding="async"
-                      data-src="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo.png"
-                      data-srcset="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo.png 200w, https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-100x44.png 100w, https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-150x65.png 150w"
-                      data-sizes="auto"
-                      data-eio-rwidth={200}
-                      data-eio-rheight={87}
-                    />
-                    <noscript>
-                      &lt;img width="200" height="87"
-                      src="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo.png"
-                      class="custom-logo" alt="Hummingbird Web Solutions"
-                      itemprop="logo" decoding="async"
-                      srcset="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo.png
-                      200w,
-                      https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-100x44.png
-                      100w,
-                      https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-150x65.png
-                      150w" sizes="(max-width: 200px) 100vw, 200px"
-                      data-eio="l"/&gt;
-                    </noscript>
-                  </a>
-                  <a
-                    href="https://hbwsl.com/"
-                    className="mobile-custom-logo"
-                    rel="home"
-                    itemProp="url"
-                  >
-                    <img
-                      width={87}
-                      height={87}
-                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABXAQAAAABZs+TBAAAAAnRSTlMAAHaTzTgAAAARSURBVHjaYxgFo2AUjAIkAAAEFAAB44Xq1wAAAABJRU5ErkJggg=="
-                      className="custom-logo lazyload"
-                      alt="Hummingbird Web Solutions"
-                      itemProp="logo"
-                      size="(max-width: 204px) 100vw, 204px"
-                      decoding="async"
-                      data-src="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-1-1-1.png"
-                      data-eio-rwidth={87}
-                      data-eio-rheight={87}
-                    />
-                    <noscript>
-                      &lt;img width="87" height="87"
-                      src="https://eadn-wc05-6928584.nxedge.io/wp-content/uploads/2023/08/hbwsl-logo-1-1-1.png"
-                      class="custom-logo" alt="Hummingbird Web Solutions"
-                      itemprop="logo" size="(max-width: 204px) 100vw, 204px"
-                      decoding="async" data-eio="l"/&gt;
-                    </noscript>
-                  </a>
-                  <div className="site-title-tagline" />
-      </div> */}
-              </div>
+              ></div>
 
               {/* Adding Overlay Div When Mobile menu is Sidebar menu */}
             </div>
@@ -534,7 +301,7 @@ const Technologies = () => {
                             <div className="elementor-widget-container">
                               <p className="elementor-heading-title elementor-size-default">
                                 <a
-                                  href="https://humcommerce.com"
+                                  href="technology"
                                   target="_blank"
                                   rel="noopener"
                                 >
@@ -712,11 +479,7 @@ const Technologies = () => {
                           >
                             <div className="elementor-widget-container">
                               <p className="elementor-heading-title elementor-size-default">
-                                <a
-                                  href="https://humcommerce.com"
-                                  target="_blank"
-                                  rel="noopener"
-                                >
+                                <a href="" target="_blank" rel="noopener">
                                   Modern Technology Platforms
                                 </a>
                               </p>
@@ -900,7 +663,7 @@ const Technologies = () => {
                             <div className="elementor-widget-container">
                               <p className="elementor-heading-title elementor-size-default">
                                 <a
-                                  href="https://humcommerce.com"
+                                  href="/technology"
                                   target="_blank"
                                   rel="noopener"
                                 >
@@ -1085,7 +848,7 @@ const Technologies = () => {
                             <div className="elementor-widget-container">
                               <p className="elementor-heading-title elementor-size-default">
                                 <a
-                                  href="https://humcommerce.com"
+                                  href="/technology"
                                   target="_blank"
                                   rel="noopener"
                                 >
