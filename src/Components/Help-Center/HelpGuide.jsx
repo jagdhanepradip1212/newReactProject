@@ -41,13 +41,13 @@ const HelpGuide = () => {
           <div className="menu-extras">
             <div className="menu-item">
               {/* Mobile menu toggle*/}
-              <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
+              {/* <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
                 <div className="lines">
                   <span />
                   <span />
                   <span />
                 </div>
-              </a>
+              </a> */}
               {/* End mobile menu toggle*/}
             </div>
           </div>

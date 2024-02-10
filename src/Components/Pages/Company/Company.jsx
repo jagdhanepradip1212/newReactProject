@@ -41,7 +41,7 @@ const Company = () => {
             <div className="menu-extras">
               <div className="menu-item">
                 {/* Mobile menu toggle*/}
-                <a
+                {/* <a
                   className="navbar-toggle"
                   id="isToggle"
                   onClick={"toggleMenu()"}
@@ -51,7 +51,7 @@ const Company = () => {
                     <span />
                     <span />
                   </div>
-                </a>
+                </a> */}
                 {/* End mobile menu toggle*/}
               </div>
             </div>
